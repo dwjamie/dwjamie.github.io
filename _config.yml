@@ -2,9 +2,9 @@
 permalink:           pretty
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               杰米
+tagline:             关于我的一切
+url:                 https://dwjamie.github.io
 paginate:            1
 baseurl:             ""
 
@@ -17,9 +17,9 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              杰米
+  url:               https://dwjamie.github.io
+  email:             jamiecao3@gmail.com
 
 # Custom vars
 version:             2.1.0
