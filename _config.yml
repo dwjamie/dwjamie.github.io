@@ -21,11 +21,6 @@ author:
   url:               https://dwjamie.github.io
   email:             jamiecao3@gmail.com
 
-# Custom vars
-version:             2.1.0
-github:
-  repo:              https://github.com/poole/poole
-
 # Gems
 plugins:
   - jekyll-paginate
