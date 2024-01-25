@@ -1,30 +1,20 @@
 ---
 layout: page
-title: About
+# title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+我是杰米，AI方向研二，现居纽约。
 
-In the novel, *The Strange Case of Dr. Jekyll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+我喜欢阅读、写作、收纳、做饭、唱歌、播客、独自旅行、人文摄影、与真诚有趣的人在城市里散步探险。
 
-There are currently two themes built on Poole:
+我不喜欢debug、滑雪、游轮、夜店、币圈、networking。
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+我正在学习开车、游泳、乒乓球、排球、台球、架子鼓、产品设计、宏观经济学、单口喜剧、亲密关系。
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+在我关注的互联网KOL里面，我最喜欢的几位是毛冬、老蒋、早见。
 
-## Setup
+我在养一只半岁的小萨摩耶，名叫椰子。
 
-Some fun facts about the setup of this project include:
+我有一个刚刚起步的Newsletter，更新在公众号和Substack上。
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+我的微信号是_dwjamie，邮箱是jamiecao3@gmail.com。For whatever reason，欢迎来认识我！
