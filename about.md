@@ -1,6 +1,6 @@
 ---
 layout: page
-# title: About
+title: 关于
 ---
 
 我是杰米，AI方向研二，现居纽约。
