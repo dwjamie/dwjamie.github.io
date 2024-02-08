@@ -15,6 +15,6 @@ title: 关于
 
 我在养一只半岁的小萨摩耶，名叫椰子。
 
-我有一个刚刚起步的Newsletter，更新在公众号和Substack上。
+我有一个刚刚起步的Newsletter，更新在公众号和[Substack](https://grasshopper3.substack.com/)上。
 
 我的微信号是_dwjamie，邮箱是jamiecao3@gmail.com。For whatever reason，欢迎来认识我！
