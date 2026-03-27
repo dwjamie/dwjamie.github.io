@@ -1,11 +1,12 @@
 # Permalinks
-permalink:           pretty
+permalink:           /blog/:title/
 
 # Setup
-title:               杰米
+title:               小米
 tagline:             关于我的一切
 url:                 https://dwjamie.github.io
-paginate:            1
+paginate:            10
+paginate_path:       /blog/page:num/
 baseurl:             ""
 
 # Assets

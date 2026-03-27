@@ -3,31 +3,43 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <article class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
-
-    {{ post.content }}
-  </article>
-  {% endfor %}
+<div class="home-intro">
+  <p>我是小米，一位推荐算法工程师，现居上海。</p>
+  
+  <p>我喜欢阅读、写作、收纳、做饭、唱歌、播客、独自旅行、人文摄影、与真诚有趣的人在城市里散步探险。</p>
+  
+  <p>我不喜欢debug、滑雪、游轮、西装、夜店、币圈、networking。</p>
+  
+  <p>我正在学习开车、游泳、乒乓球、排球、台球、架子鼓、产品设计、宏观经济学、单口喜剧、亲密关系。</p>
+  
+  <p>在我关注的互联网KOL里面，我最喜欢的几位是毛冬、老蒋、早见。</p>
+  
+  <p>我曾经在纽约养过一只半岁的小萨摩耶，名叫椰子，现在它跟着我的室友留在了美国。</p>
+  
+  <p>我有一个刚刚起步的Newsletter，更新在公众号和<a href="https://grasshopper3.substack.com/">Substack</a>上。</p>
+  
+  <p>我的微信号是_dwjamie，邮箱是jamiecao3@gmail.com。For whatever reason，欢迎来认识我！</p>
 </div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
+<div class="home-section">
+  <h2>最新文章</h2>
+  <div class="post-list">
+    {% for post in site.posts limit:3 %}
+    <article class="post-item">
+      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
+    </article>
+    {% endfor %}
+  </div>
+  <p><a href="/blog/">查看全部文章 →</a></p>
+</div>
+
+<div class="home-section">
+  <h2>订阅</h2>
+  <p>订阅我的 Newsletter，不定期收到我的思考和推荐。</p>
+  <form class="subscribe-form" action="https://buttondown.email/api/emails/embed-subscribe/grasshopper3" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/grasshopper3', 'popupwindow')">
+    <input type="email" name="email" placeholder="your@email.com" required>
+    <button type="submit">订阅</button>
+  </form>
+  <p><small>Powered by <a href="https://buttondown.email" target="_blank">Buttondown</a></small></p>
 </div>
