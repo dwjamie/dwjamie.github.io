@@ -1,9 +1,30 @@
 {
-  "note": "This is a placeholder file. This site is hosted on GitHub Pages (static only, no server-side API). No real endpoints are implemented.",
-  "api": {
-    "name": "Jamie's Blog API",
-    "description": "Static blog - no backend API. Only GET requests supported via static files.",
-    "version": "1.0.0"
-  },
-  "endpoints": []
+  "linkset": [
+    {
+      "anchor": "https://dwjamie.github.io/",
+      "links": [
+        {
+          "rel": "service-desc",
+          "href": "https://dwjamie.github.io/atom.xml",
+          "title": "RSS Feed"
+        },
+        {
+          "rel": "service-doc",
+          "href": "https://dwjamie.github.io/about/",
+          "title": "About Page"
+        },
+        {
+          "rel": "alternate",
+          "href": "https://dwjamie.github.io/llms.txt",
+          "type": "text/plain",
+          "title": "AI Agent Directory"
+        },
+        {
+          "rel": "sitemap",
+          "href": "https://dwjamie.github.io/sitemap.xml"
+        }
+      ]
+    }
+  ],
+  "note": "This is a static site hosted on GitHub Pages. Only GET requests are supported. This API catalog follows RFC 9727."
 }
