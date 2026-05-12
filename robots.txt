@@ -1,0 +1,9 @@
+# 允许所有爬虫访问
+User-agent: *
+Allow: /
+
+# Content Signals: AI 使用偏好
+Content-Signal: ai-train=no, ai-input=yes, search=yes
+
+# 站点地图
+Sitemap: https://dwjamie.github.io/sitemap.xml

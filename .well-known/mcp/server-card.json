@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/mcp-server-card/v1.json",
+  "version": "1.0",
+  "protocolVersion": "2025-06-18",
+  "serverInfo": {
+    "name": "dwjamie-blog",
+    "title": "Jamie's Personal Blog",
+    "version": "1.0.0"
+  },
+  "description": "Personal blog of Jamie. Currently READ-ONLY static site hosted on GitHub Pages. No MCP server implemented yet.",
+  "transport": {
+    "type": "streamable-http",
+    "endpoint": "N/A - static site, no backend"
+  },
+  "authentication": {
+    "required": false
+  },
+  "tools": [],
+  "note": "This is a placeholder file for future MCP support. Currently no tools available. Use RSS feed at /atom.xml for content."
+}

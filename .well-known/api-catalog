@@ -1,0 +1,9 @@
+{
+  "note": "This is a placeholder file. This site is hosted on GitHub Pages (static only, no server-side API). No real endpoints are implemented.",
+  "api": {
+    "name": "Jamie's Blog API",
+    "description": "Static blog - no backend API. Only GET requests supported via static files.",
+    "version": "1.0.0"
+  },
+  "endpoints": []
+}

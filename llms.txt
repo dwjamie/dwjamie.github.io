@@ -1,0 +1,50 @@
+# 小米 (Jamie) 的个人网站
+
+个人网站主目录 - 推荐算法工程师的个人博客
+
+## 站点信息
+
+- **URL**: https://dwjamie.github.io
+- **作者**: Jamie (小米)
+- **职业**: 推荐算法工程师
+- **地点**: 上海
+- **邮箱**: jamiecao3@gmail.com
+- **微信**: _dwjamie
+- **托管**: GitHub Pages (静态站点，无后端)
+
+## 页面导航
+
+| 页面 | URL | 描述 |
+|------|-----|------|
+| 首页 | https://dwjamie.github.io/ | 个人简介、最新文章、订阅入口 |
+| 关于 | https://dwjamie.github.io/about/ | 详细自我介绍 |
+| 博客 | https://dwjamie.github.io/blog/ | 全部文章列表 |
+
+## 文章列表
+
+- [我的第一篇文章](https://dwjamie.github.io/blog/my-first-post/) - 2024-01-13
+- [William Cimillo](https://dwjamie.github.io/blog/william-cimillo/) - 2024-01-14
+
+## 实际可用的 AI 资源
+
+| 资源 | 状态 | 说明 |
+|------|------|------|
+| RSS/Atom | ✅ 可用 | https://dwjamie.github.io/atom.xml |
+| AI 目录 | ✅ 可用 | 本文件 llms.txt |
+| XML Sitemap | ✅ 可用 | https://dwjamie.github.io/sitemap.xml |
+| robots.txt | ✅ 可用 | 含 Content Signals |
+
+## 占位符文件（暂未实现）
+
+以下文件存在但是空的/占位符，供将来扩展使用：
+
+- `.well-known/mcp/server-card.json` - MCP Server Card（暂无后端）
+- `.well-known/agent-skills/index.json` - Agent Skills（未实现）
+- `.well-known/api-catalog` - API Catalog（无动态 API）
+
+## 内容许可
+
+Content-Signal: ai-train=no, ai-input=yes, search=yes
+
+---
+For AI agents. This file provides a token-efficient overview of the site.
