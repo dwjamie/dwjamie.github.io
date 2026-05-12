@@ -31,7 +31,6 @@
 |------|------|------|
 | RSS/Atom | ✅ 可用 | https://dwjamie.github.io/atom.xml |
 | JSON Feed | ✅ 可用 | https://dwjamie.github.io/feed.json |
-| Feed 目录 | ✅ 可用 | https://dwjamie.github.io/feeds.json |
 | AI 目录 | ✅ 可用 | 本文件 llms.txt |
 | XML Sitemap | ✅ 可用 | https://dwjamie.github.io/sitemap.xml |
 | robots.txt | ✅ 可用 | 含 Content Signals |

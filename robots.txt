@@ -5,10 +5,5 @@ Allow: /
 # Content Signals: AI 使用偏好
 Content-Signal: ai-train=no, ai-input=yes, search=yes
 
-# Feeds
-# Atom: https://dwjamie.github.io/atom.xml
-# JSON Feed: https://dwjamie.github.io/feed.json
-# Feed directory: https://dwjamie.github.io/feeds.json
-
 # 站点地图
 Sitemap: https://dwjamie.github.io/sitemap.xml
