@@ -23,3 +23,23 @@
     opacity: .5;
   }
 }
+
+.masthead-rss {
+  display: inline-block;
+  margin-left: .5rem;
+  padding: .05rem .3rem;
+  border: 1px solid $gray-3;
+  border-radius: 3px;
+  color: $gray-4;
+  font-size: .6rem;
+  font-weight: 600;
+  line-height: 1.2;
+  opacity: .65;
+  vertical-align: middle;
+
+  &:hover,
+  &:focus {
+    opacity: 1;
+    text-decoration: none;
+  }
+}
